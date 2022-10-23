@@ -2,15 +2,16 @@ import React from "react";
 
 import Conta from "../Conta";
 import { Titulo } from "../Titulo";
+import { Main, Conteudo } from "./styles";
 
 const Container = () => {
   return (
-    <div className="container">
+    <Main>
       <Titulo>Olá Fulano!</Titulo>
-      <section className="conteudo">
+      <Conteudo>
         <Conta />
-      </section>
-    </div>
+      </Conteudo>
+    </Main>
   );
 };
 
