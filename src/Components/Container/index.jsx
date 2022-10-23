@@ -1,7 +1,7 @@
 import React from "react";
 
-import Titulo from "../Titulo";
 import Conta from "../Conta";
+import { Titulo } from "../Titulo";
 
 const Container = () => {
   return (
