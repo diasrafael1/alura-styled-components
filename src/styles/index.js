@@ -5,6 +5,10 @@ export const Icone = styled.img`
   width: 25px;
 `;
 
+export const IconeTema = styled(Icone)`
+  filter: ${(props) => props.theme.filter};
+`;
+
 export const Card = styled.section`
   display: flex;
   flex-direction: column;
